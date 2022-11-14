@@ -1,0 +1,85 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 18;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+.header-seccion {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    width: 100%;
+    padding: 1rem;
+    
+}
+.header-seccion > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-right: 3rem;
+}
+.content {
+    display: flex;
+}
+
+aside {
+    max-width: 300px;
+}
+.cv-seccion {
+    padding:1rem;
+}
+
+.nombre-y-trabajo {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.nombre{
+    transition-duration: 1000ms;
+}
+.nombre:hover{
+    color: black;
+    font-size: 50px;
+   
+}
+.apellido{
+    color: blueviolet;
+    margin: 0%;
+    
+}
+.trabajo{
+    font-weight: 400;
+}
+
+ul {
+    font-weight: 100;
+}
+h3{
+    font-weight: 900;
+}
+ 
+.son1{
+    font-weight: 900;
+    text-decoration: none;
+}
+
+h1 {
+    color: cadetblue;
+}
+.firstlist {
+    text-decoration: underline;
+    color: darkviolet;
+}
+.secondlist{
+    text-decoration: underline;
+    color: darkviolet;
+}
+
